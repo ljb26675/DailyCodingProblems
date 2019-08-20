@@ -1,2 +1,2 @@
 # Daily Coding Problems
-Just some daily coding problems.
+Some daily coding problems solved in Java, C++, and Python.
