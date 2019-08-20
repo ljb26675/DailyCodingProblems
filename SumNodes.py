@@ -1,5 +1,4 @@
-# Python2 program that finds two nodes in a tree that sum equals k
-
+# Python2 program that finds two nodes in a tree that equal sum
 
 import math
 import sys
@@ -44,6 +43,7 @@ def sumNodes(root, sum):
         
         
 # test functions
+<<<<<<< HEAD
 root= None
 root = insert(root,10) 
 root = insert(root,5) 
@@ -52,3 +52,14 @@ root = insert(root,11)
 root = insert(root,15) 
 sum = 20
 sumNodes(root, sum) 
+=======
+if __name__=='__main__': 
+    root= None
+    root = insert(root,10) 
+    root = insert(root,5) 
+    root = insert(root,15) 
+    root = insert(root,11) 
+    root = insert(root,15) 
+    sum = 20
+    sumNodes(root, sum) 
+>>>>>>> edd28b41e6e589e6190f7884a402404a7930e8c5
