@@ -1,5 +1,4 @@
-# Python2 program that finds two nodes in a tree that sum equals k
-
+# Python2 program that finds two nodes in a tree that equal sum
 
 import math
 import sys
