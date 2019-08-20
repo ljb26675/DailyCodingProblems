@@ -44,12 +44,11 @@ def sumNodes(root, sum):
         
         
 # test functions
-if __name__=='__main__': 
-    root= None
-    root = insert(root,10) 
-    root = insert(root,5) 
-    root = insert(root,15) 
-    root = insert(root,11) 
-    root = insert(root,15) 
-    sum = 20
-    sumNodes(root, sum) 
+root= None
+root = insert(root,10) 
+root = insert(root,5) 
+root = insert(root,15) 
+root = insert(root,11) 
+root = insert(root,15) 
+sum = 20
+sumNodes(root, sum) 
