@@ -24,6 +24,8 @@ public class ProductI{
 		  newArr[i]=p;
 		  p*=arr[i];
 		}
+		
+		//System.out.println(Arrays.toString(newArr));
 
 		// Products below current index.
 		p=1;
@@ -31,6 +33,8 @@ public class ProductI{
 		  newArr[i]*=p;
 		  p*=arr[i];
 		}
+		
+		//System.out.println(Arrays.toString(newArr)); 
 		
 		return newArr;
 		
