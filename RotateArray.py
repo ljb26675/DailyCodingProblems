@@ -1,3 +1,5 @@
+#Simple program that shifts an array left some number of times written in Python2
+
 
 # Function to rotate the array left by one
 def rotLeftOne(arr, n):
